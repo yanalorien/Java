@@ -1,0 +1,12 @@
+package control;
+
+public class IfElse
+{
+	public static void main(String[] args)
+	{
+		boolean condition = false;
+		
+		if (condition)
+			System.out.println("Inside If");
+	}
+}

@@ -1,0 +1,12 @@
+package strings;
+
+public class StringMethods
+{
+	public static void main(String[] args)
+	{
+		String palindrome = "Madam Im Adam";
+		String name = "Anthony";
+		
+		System.out.println("Hello, " + name);
+	}
+}

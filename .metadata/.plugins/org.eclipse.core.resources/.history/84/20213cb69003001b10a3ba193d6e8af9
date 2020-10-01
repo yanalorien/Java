@@ -1,0 +1,31 @@
+package homeworks;
+
+public class H1
+{
+	public boolean monkeyTrouble(boolean aSmile, boolean bSmile)
+	{
+		/*
+		 * if (aSmile && bSmile || !aSmile && !bSmile)
+		 * return true;
+		 * else
+		 * return false;
+		 */
+		return (aSmile == bSmile);
+	}
+	
+	public static void main(String[] args)
+	{
+		H1 h1 = new H1();
+		boolean aSmile = false;
+		boolean bSmile = true;
+		
+//		System.out.println("In trouble: " + h1.monkeyTrouble(aSmile, bSmile));
+		
+		if (h1.monkeyTrouble(aSmile, bSmile))
+			System.out.println("In trouble");
+		else
+			System.out.println("Not in trouble");
+		
+		
+	}
+}

@@ -1,0 +1,15 @@
+package foundation;
+
+public class TestCar
+{
+	public static void main(String[] args)
+	{
+		Car car = new Car(1.1, 25.2, 7.0);
+		double mpg = car.calculateMPG();
+		System.out.println(mpg);
+	
+		Car car2 = new Car();
+		mpg = car2.calculateMPG()
+		System.out.println(mpg);
+	}
+}

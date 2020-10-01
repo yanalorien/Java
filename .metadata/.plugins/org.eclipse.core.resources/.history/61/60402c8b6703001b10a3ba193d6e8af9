@@ -1,0 +1,11 @@
+package homeworks;
+
+public class TestVowels
+{
+	public static void main(String[] args)
+	{
+		Vowels character = new Vowels();
+		String test1 = character.vowels('a');
+		System.out.println(test1);
+	}
+}
