@@ -15,8 +15,8 @@ public class StringManipulation
 			System.out.print(sentence.charAt(i));
 		
 		String palindrome = "Dot saw I was Tod";
-		StringBuilder sb = new StringBuilder(palindrome);
-		sb.reverse();
-		System.out.println("\n" + sb);
+//		StringBuilder sb = new StringBuilder(palindrome);
+		palindrome.reverse();
+		System.out.println("\n" + palindrome);
 	}
 }
