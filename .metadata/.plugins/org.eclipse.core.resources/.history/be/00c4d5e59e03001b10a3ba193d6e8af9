@@ -17,7 +17,7 @@ public class StringManipulation
 		String palindrome = "Dot saw I was Tod";
 		StringBuilder sb = new StringBuilder(palindrome);
 		sb.reverse();
-		System.out.println("\n" + sb + "\n");
+		System.out.println("\n" + sb + \n);
 		
 		String[] words = sentence.split(" ");
 		for (int i = 0; i < words.length; i++)
