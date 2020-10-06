@@ -1,7 +1,5 @@
 package strings;
 
-import java.util.Arrays;
-
 public class StringManipulation
 {
 	public static void main(String[] args)
@@ -27,7 +25,6 @@ public class StringManipulation
 			System.out.println(words[i]);
 		
 		char[] pal = palindrome.toLowerCase().toCharArray();
-		Arrays.sort(pal);
 		System.out.println(pal);
 	}
 }

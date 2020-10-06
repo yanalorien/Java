@@ -1,0 +1,10 @@
+package inheritance;
+
+public class TestInheritance
+{
+	public static void main(String[] args)
+	{
+		Animal animal = new Animal("A big scary animal")
+		animal.eat();
+	}
+}
