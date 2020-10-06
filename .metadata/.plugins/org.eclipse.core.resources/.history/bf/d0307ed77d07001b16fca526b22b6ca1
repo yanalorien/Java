@@ -17,5 +17,5 @@ public class Addition
 		return a + b;
 	}
 	
-// method overloading - to use same name for methods (parameters must be different in count or type), return type doesn't matter.
+// method overloading
 }
