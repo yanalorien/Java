@@ -18,8 +18,6 @@ public class TestInheritance
 		ani.eat();
 		System.out.println(ani.getType());
 		
-		((Dog)ani).getName(); //refers to Dog
-		
 		ani = new Cat("Siam");
 		ani.eat();
 	}
