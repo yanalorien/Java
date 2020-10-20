@@ -1,0 +1,10 @@
+package interfaces;
+
+public class Circle implements Drawable
+{
+	@Override
+	public void draw()
+	{
+		// TODO Auto-generated method stub
+	}
+}
