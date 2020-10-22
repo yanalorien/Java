@@ -6,4 +6,5 @@ public class HisClass
 {
 	private com.me.MyClass myClass;
 	private MySecondClass mySecondClass;
+	private com.her.MyClass herClass;
 }

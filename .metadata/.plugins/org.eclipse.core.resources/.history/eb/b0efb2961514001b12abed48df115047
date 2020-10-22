@@ -1,6 +1,6 @@
-package exceptions;
+package homeworks;
 
-public class TestExceptions
+public class H8
 {
 	public static void main(String[] args)
 	{

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="homeworks.QAEngineer"/>
     <fullyQualifiedTypeName name="exceptions.WithFinally"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.me.MyClass"/>
+    <fullyQualifiedTypeName name="com.me.MySecondClass"/>
 </qualifiedTypeNameHistroy>
