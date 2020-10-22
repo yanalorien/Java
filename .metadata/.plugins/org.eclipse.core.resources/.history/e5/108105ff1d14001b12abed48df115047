@@ -1,6 +1,6 @@
 package com.modifiers.pack1;
 
-public class PackageLevel
+class PackageLevel
 {
 	private String name;
 	
