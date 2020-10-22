@@ -1,0 +1,9 @@
+package com.modifiers.pack1;
+
+public class TestMemberLevelPack1
+{
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+	}
+}
