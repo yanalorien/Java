@@ -6,4 +6,9 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.me.MyClass"/>
     <fullyQualifiedTypeName name="com.me.MySecondClass"/>
+    <fullyQualifiedTypeName name="com.modifiers.pack1.PackageLevel"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="com.modifiers.pack1.MemberLevel"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="com.sun.tools.sjavac.server.SysInfo"/>
 </qualifiedTypeNameHistroy>

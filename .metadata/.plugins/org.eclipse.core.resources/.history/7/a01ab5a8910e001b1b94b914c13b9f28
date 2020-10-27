@@ -1,9 +1,0 @@
-package homeworks;
-
-public class TestQAEngineer
-{
-	public static void main(String[] args)
-	{
-		// TODO Auto-generated method stub
-	}
-}
