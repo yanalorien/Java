@@ -1,0 +1,17 @@
+package datastructures;
+
+import java.util.ArrayList;
+
+public class ListInterface
+{
+	public static void main(String[] args)
+	{
+		var names = new ArrayList<String>(); // int -> Integer double -> Double
+		names.add("Ann");
+		names.add("Cindy");
+		System.out.println(names);
+		
+		names.add(1, "Bob");
+		System.out.println(names);
+	}
+}
