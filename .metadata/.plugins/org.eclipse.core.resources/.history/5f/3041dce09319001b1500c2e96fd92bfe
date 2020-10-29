@@ -24,12 +24,5 @@ public class MapInterface
 		System.out.println(animals.containsValue(1));
 		
 		animals.forEach((k, v) -> System.out.println(k + " = " + v));
-		
-		Map zoo = Map.of("dog", 1,
-						"horse", 1,
-						"rabbit", 68);
-		
-		int horseNumber = (int)zoo.get("horse");
-		System.out.println("horse number: " + horseNumber);
 	}
 }
