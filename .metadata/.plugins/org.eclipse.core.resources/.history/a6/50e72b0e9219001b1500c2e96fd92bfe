@@ -22,7 +22,5 @@ public class MapInterface
 			System.out.println("Zoo has rabbits");
 		
 		System.out.println(animals.containsValue(1));
-		
-		animals.forEach((k, v) -> System.out.println(k + " = " + v));
 	}
 }

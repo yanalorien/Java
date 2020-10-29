@@ -40,8 +40,7 @@ public class ListInterface
 		int[] numbers = {1, 2, 3};
 		for (int i: numbers)
 			System.out.println(i);
-
-// forEach method
+		
 		family.forEach(name -> System.out.println(name));
 	}
 }
