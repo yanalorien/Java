@@ -1,9 +1,0 @@
-package com.modifiers.pack2;
-
-public class TestPackageLevelPack2
-{
-	public static void main(String[] args)
-	{
-		// TODO Auto-generated method stub
-	}
-}
