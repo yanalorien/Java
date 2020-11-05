@@ -502,3 +502,32 @@
 2020-11-02 23:51:08,545 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\main\resources
 2020-11-02 23:51:08,552 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-11-02 23:51:08,552 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\test\resources
+2020-11-04 22:32:47,086 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-11-04 23:21:57,228 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-04 23:21:57,229 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\main\resources
+2020-11-04 23:21:57,233 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-04 23:21:57,233 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\test\resources
+2020-11-04 23:42:21,656 [Worker-56: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-04 23:42:21,657 [Worker-56: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\main\resources
+2020-11-04 23:42:21,658 [Worker-56: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-04 23:42:21,658 [Worker-56: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\test\resources
+2020-11-04 23:54:14,018 [Worker-59: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-04 23:54:14,018 [Worker-59: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\main\resources
+2020-11-04 23:54:14,020 [Worker-59: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-04 23:54:14,020 [Worker-59: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\test\resources
+2020-11-04 23:54:33,069 [Worker-62: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-04 23:54:33,069 [Worker-62: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\main\resources
+2020-11-04 23:54:33,072 [Worker-62: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-04 23:54:33,072 [Worker-62: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\test\resources
+2020-11-05 00:09:28,510 [Worker-65: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 00:09:28,511 [Worker-65: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\main\resources
+2020-11-05 00:09:28,514 [Worker-65: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 00:09:28,515 [Worker-65: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\test\resources
+2020-11-05 00:12:07,925 [Worker-64: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 00:12:07,925 [Worker-64: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\main\resources
+2020-11-05 00:12:07,929 [Worker-64: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 00:12:07,929 [Worker-64: Launching TemplateTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\test\resources
+2020-11-05 00:13:57,567 [Worker-71: Launching Executing test in C__Q7_MavenTemplate] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Q7\MavenTemplate
+2020-11-05 00:13:57,568 [Worker-71: Launching Executing test in C__Q7_MavenTemplate] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Pasv -B test
+2020-11-05 00:14:12,689 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 00:14:12,689 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\main\resources
