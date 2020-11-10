@@ -531,3 +531,5 @@
 2020-11-05 00:13:57,568 [Worker-71: Launching Executing test in C__Q7_MavenTemplate] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Pasv -B test
 2020-11-05 00:14:12,689 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-11-05 00:14:12,689 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\main\resources
+2020-11-05 00:14:12,691 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-05 00:14:12,691 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\test\resources
