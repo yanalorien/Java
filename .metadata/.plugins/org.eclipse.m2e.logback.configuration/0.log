@@ -687,3 +687,68 @@
 2020-11-11 22:55:28,852 [Worker-29: Launching UsingAssertJ] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-11-11 22:55:28,852 [Worker-29: Launching UsingAssertJ] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\main\resources
 2020-11-11 22:55:28,854 [Worker-29: Launching UsingAssertJ] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 22:55:28,855 [Worker-29: Launching UsingAssertJ] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MavenTemplate\src\test\resources
+2020-11-11 23:06:10,224 [Worker-33: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Q7\MySuite\pom.xml
+2020-11-11 23:06:12,781 [Worker-33: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pack1:MySuite:0.0.1-SNAPSHOT @ C:\Q7\MySuite\pom.xml.
+2020-11-11 23:06:13,165 [Worker-33: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MySuite/src/main/java
+2020-11-11 23:06:13,173 [Worker-33: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MySuite/src/test/java
+2020-11-11 23:06:13,279 [Worker-33: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2020-11-11 23:06:13,696 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:06:13,696 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:06:13,698 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:06:13,698 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:06:33,120 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:06:33,121 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:06:33,124 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:06:33,124 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:06:34,147 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:06:34,148 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:06:34,149 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:06:34,150 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:06:48,343 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:06:48,344 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:06:48,346 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:06:48,347 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:08:26,715 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:08:26,715 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:08:26,717 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:08:26,717 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:09:36,824 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:09:36,824 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:09:36,825 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:09:36,826 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:11:34,094 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pack1:MySuite:0.0.1-SNAPSHOT @ C:\Q7\MySuite\pom.xml.
+2020-11-11 23:11:34,295 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:11:34,295 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:11:34,297 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:11:34,297 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:11:35,430 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:11:35,430 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:11:35,432 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:11:35,432 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:12:22,320 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:12:22,320 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:12:22,322 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:12:22,323 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:12:49,882 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:12:49,882 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:12:49,883 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:12:49,884 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:13:08,396 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:13:08,397 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:13:08,400 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:13:08,400 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:13:27,198 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:13:27,199 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:13:27,200 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:13:27,201 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:14:29,660 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:14:29,661 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:14:29,663 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:14:29,663 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:15:18,608 [Worker-37: Launching Test1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:15:18,608 [Worker-37: Launching Test1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
+2020-11-11 23:15:18,611 [Worker-37: Launching Test1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:15:18,611 [Worker-37: Launching Test1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\test\resources
+2020-11-11 23:18:49,628 [Worker-40: Launching TestSuitePack1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-11 23:18:49,628 [Worker-40: Launching TestSuitePack1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Q7\MySuite\src\main\resources
