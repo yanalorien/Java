@@ -14,7 +14,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -29,4 +28,15 @@
     <fullyQualifiedTypeName name="org.assertj.core.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="org.assertj.core.api.SoftAssertions"/>
+    <fullyQualifiedTypeName name="org.junit.platform.suite.api.SelectClasses"/>
+    <fullyQualifiedTypeName name="org.junit.platform.runner.JUnitPlatform"/>
+    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+    <fullyQualifiedTypeName name="org.junit.platform.suite.api.SelectPackages"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.MethodOrderer.Alphanumeric"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.MethodOrderer"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.MethodOrderer.OrderAnnotation"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.TestMethodOrder"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Order"/>
 </qualifiedTypeNameHistroy>
