@@ -14,6 +14,20 @@ public class Calculator
 		result += a;
 	}
 
+	public void subtract(int a)
+	{
+		result -= a;
+	}
+	
+	public void multiply(int a)
+	{
+		result *= a;
+	}
+	public void divide(int a)
+	{
+		result /= a;
+	}
+	
 	public int getResult()
 	{
 		return result;
