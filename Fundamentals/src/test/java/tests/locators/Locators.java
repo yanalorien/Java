@@ -34,5 +34,8 @@ class Locators extends BaseTest
 		
 // by tag name
 		System.out.println(driver.findElement(By.tagName("body")).getText());
+		
+// by XPath
+		driver.findElement(By.xpath("//ul/li[2]/span/a[@href='/shoes/b-5001379']")).click();
 	}
 }
