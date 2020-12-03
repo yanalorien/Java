@@ -39,4 +39,16 @@ class DropdownChecks extends BaseTest
 			System.out.println(e.getText());
 		Thread.sleep(3000);
 	}
+	
+	@Test
+	void testingMultiselect() throws InterruptedException
+	{
+		WebElement multiSelect = driver.findElement(By.name("multipleselect[]"));
+		Select s = new Select(multiSelect);
+		s.deselectAll();
+		s.selectByIndex(0);
+		Thread.sleep(3000);
+		s.selectByIndex(1);
+		Thread.sleep(3000);
+	}
 }
