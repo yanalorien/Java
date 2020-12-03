@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.List;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -12,10 +13,15 @@ import common.BaseTest;
 
 class Links extends BaseTest
 {
+	@BeforeEach
+	void setUp()
+	{
+		driver.get("http://book.theautomatedtester.co.uk/");
+	}
+	
 	@Test
 	void testingLinks()
 	{
-		driver.get("http://book.theautomatedtester.co.uk/");
 		List<WebElement> list = driver.findElements(By.tagName("a"));
 		
 		int numberOfLinks = list.size();
@@ -31,7 +37,6 @@ class Links extends BaseTest
 	@Test
 	void getPageHTML()
 	{
-		driver.get("http://book.theautomatedtester.co.uk/");
 		String body = driver.getPageSource();
 		System.out.println("Page HTML code:\n" + body);
 		assertTrue(body.contains("Selenium"));
