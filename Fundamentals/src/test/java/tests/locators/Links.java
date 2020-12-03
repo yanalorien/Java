@@ -14,7 +14,7 @@ import common.BaseTest;
 class Links extends BaseTest
 {
 	@BeforeEach
-	void setUp()
+	void open()
 	{
 		driver.get("http://book.theautomatedtester.co.uk/");
 	}
