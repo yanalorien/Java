@@ -21,7 +21,7 @@ class H2 extends BaseTest
 	@BeforeEach
 	void open() throws Exception
 	{
-		driver.get(" https://www.trademe.co.nz/");
+		driver.get("https://www.trademe.co.nz/");
 	}
 
 	@Test
