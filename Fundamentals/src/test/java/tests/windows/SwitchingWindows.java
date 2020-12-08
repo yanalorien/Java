@@ -23,14 +23,14 @@ class SwitchingWindows extends BaseTest
 	}
 
 	@Test
-	void test()
+	void test() throws InterruptedException
 	{
-		String firstTab = driver.getWindowHandle();
+		String firstTab = driver.getWindowHandle(); //дает handle текущего окна
 		String secondTab = "";
 		
 		driver.findElement(By.linkText("Click Here")).click();
 		
-		Set<String> allWindows = driver.getWindowHandles();
+		Set<String> allWindows = driver.getWindowHandles(); //дает сет всех открытых окошек
 // 1 
 		for(String handle: allWindows)
 		{
@@ -48,6 +48,8 @@ class SwitchingWindows extends BaseTest
 		assertThat(driver.getTitle()).isEqualTo(firstTabTitle);
 		
 		driver.close();
+		Thread.sleep(3000);
+		
 		driver.switchTo().window(secondTab);
 		assertThat(driver.getTitle()).isEqualTo(titleToSwitch);
 	}
