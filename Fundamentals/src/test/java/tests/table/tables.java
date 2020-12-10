@@ -42,7 +42,7 @@ class tables extends BaseTest
 		}
 		
 		System.out.println("\nThird method");
-		List<WebElement> column = driver.findElements(By.xpath("//td[@class = 'dues']"));
+		List<WebElement> column = driver.findElements(By.xpath("//td[@class ='dues']"));
 		for (WebElement cell: column)
 			System.out.println(cell.getText());
 	}
