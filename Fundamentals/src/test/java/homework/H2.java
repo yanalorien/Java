@@ -34,7 +34,7 @@ class H2 extends BaseTest
 		String searchResult = driver.findElement(By.className("search-results-text")).getText();
 		assertThat(searchResult).isEqualTo("Search results for 'milk'");
 		
-		TakesScreenshot ts = (TakesScreenshot) driver;
+		TakesScreenshot ts = (TakesScreenshot) driver; //casting
 		FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), new File("SearchForMilk.png"));
 		
 		driver.navigate().back();
