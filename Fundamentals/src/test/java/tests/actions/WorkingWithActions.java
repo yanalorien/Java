@@ -54,7 +54,30 @@ class WorkingWithActions extends BaseTest
 		driver.get("https://demoqa.com/droppable");
 		WebElement source = driver.findElement(By.id("draggable"));
 		WebElement destination = driver.findElement(By.id("droppable"));
+		
 		builder.dragAndDrop(source, destination).perform();
+		assertThat(destination.getText()).isEqualTo("Dropped!");
+	}
+	
+	@Test
+	void dragByOffset() throws InterruptedException
+	{
+		driver.get("https://demoqa.com/droppable");
+		WebElement source = driver.findElement(By.id("draggable"));
+		WebElement destination = driver.findElement(By.id("droppable"));
+		
+		int xSource = source.getLocation().getX();
+		int ySource = source.getLocation().getY();
+		
+		int xDestination = destination.getLocation().getX();
+		int yDestination = destination.getLocation().getY();
+		
+		int xMove = xDestination - xSource + 11;
+		int yMove = yDestination - ySource + 11;
+		
+		builder.dragAndDropBy(source, xMove, yMove).perform();
+		Thread.sleep(4000);
+		assertThat(destination.getText()).isEqualTo("Dropped!");
 	}
 	
 	private void isAlertPresent()
