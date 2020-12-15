@@ -39,6 +39,11 @@ class H4 extends BaseTest
 				currentColumn++;
 		}
 		
-		System.out.println("\nGiven " + givenColumnName + " number is: " + givenColumn);
+		System.out.println("\n" + givenColumnName + " number is " + givenColumn);
+		
+		By columnXPath = By.xpath("//div[@role='row']/div[" + givenColumn + "]/div");
+		List<WebElement> columnValues = driver.findElements(columnXPath);
+		for (int i = 1; i < columnValues.size(); i++)
+			System.out.println(columnValues.get(i).getText());
 	}
 }
