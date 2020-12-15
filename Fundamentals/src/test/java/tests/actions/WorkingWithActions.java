@@ -48,6 +48,15 @@ class WorkingWithActions extends BaseTest
 		assertThat(driver.findElement(By.xpath("//h2[1]")).getText()).isEqualTo("Join");
 	}
 	
+	@Test
+	void dragAndDrop()
+	{
+		driver.get("https://demoqa.com/droppable");
+		WebElement source = driver.findElement(By.id("draggable"));
+		WebElement destination = driver.findElement(By.id("droppable"));
+		builder.dragAndDrop(source, destination).perform();
+	}
+	
 	private void isAlertPresent()
 	{
 		try
