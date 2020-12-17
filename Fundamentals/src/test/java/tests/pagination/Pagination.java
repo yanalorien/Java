@@ -1,10 +1,14 @@
 package tests.pagination;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import common.BaseTest;
 
@@ -26,6 +30,28 @@ class Pagination extends BaseTest
 		
 		String[] resultWords = results.split(" ");
 		int totalResults = Integer.parseInt(resultWords[3]); // Double Float
-		System.out.println("Total results found: " + totalResults);	
+		System.out.println("Total results found: " + totalResults);
+		
+		int resultsDisplayed = Integer.parseInt(resultWords[1].split("-")[1]);
+		System.out.println("Maximum results displayed on one page: " + resultsDisplayed);
+		
+// total number of pages
+		int numberOfPages = (int)Math.ceil((double)totalResults/resultsDisplayed);
+		System.out.println("Total number of pages: " + numberOfPages);
+		
+		int actualTotalResults = 0;
+		for (int i = 1; i <= numberOfPages; i++)
+		{
+			List<WebElement> visibleResults = driver.findElements(By.className("tallCellView"));
+			int resultsOnPage = visibleResults.size();
+			actualTotalResults += resultsOnPage;
+			
+			System.out.println("Page: " + i + " visible results: " + resultsOnPage);
+			
+			if (i == numberOfPages)
+				break;
+			driver.findElement(By.linkText("Next→")).click();
+		}
+		assertThat(actualTotalResults).isEqualTo(totalResults);
 	}
 }

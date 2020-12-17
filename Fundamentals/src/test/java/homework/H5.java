@@ -40,5 +40,9 @@ class H5 extends BaseTest
 		
 		List<WebElement> links = driver.findElements(By.partialLinkText("Wedding"));
 		assertThat(links.size()).isGreaterThan(0);
+		for (WebElement link: links)
+		{
+			System.out.println(link.findElement(By.className("title")).getText());
+		}
 	}
 }
