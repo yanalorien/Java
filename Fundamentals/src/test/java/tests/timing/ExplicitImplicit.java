@@ -12,6 +12,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 class ExplicitImplicit
@@ -36,6 +39,15 @@ class ExplicitImplicit
 	}
 	
 	@Test
+	void withExplicit()
+	{
+		driver.findElement(By.tagName("button")).click();
+		WebElement helloWorld = new WebDriverWait(driver, 15)
+				.until(ExpectedConditions.visibilityOfElementLocated(By.id("finish")));
+		assertThat(helloWorld.getText()).isEqualTo("Hello World!");
+	}
+	
+	@Test
 	void elementNotOnPageWithImplicit()
 	{
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -46,6 +58,14 @@ class ExplicitImplicit
 	void elementNotOnPageWithoutImplicit()
 	{
 		driver.findElement(By.id("VB"));
+	}
+	
+	@Test
+	void elementNotOnPageExplicit()
+	{
+		new WebDriverWait(driver, 15)
+			.until(ExpectedConditions.invisibilityOfElementLocated(By.id("VB")));	
+		System.out.println("explicit invisibility");
 	}
 	
 	@AfterEach
