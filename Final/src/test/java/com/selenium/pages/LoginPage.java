@@ -54,7 +54,8 @@ public class LoginPage extends BasePage
 	public HomePage validLogin(String user, String pass)
 	{
 		submitLogin(user, pass);
-		return PageFactory.initElements(driver, HomePage.class);
+		return new HomePage(driver);
+//		return PageFactory.initElements(driver, HomePage.class);
 	}
 	
 	public String getLogoutConfirmation()
