@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import common.BaseTest;
 
-class H9 extends BaseTest
+class H8 extends BaseTest
 {
 	@BeforeEach
 	void open() throws Exception

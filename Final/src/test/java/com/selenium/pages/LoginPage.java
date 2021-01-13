@@ -27,6 +27,9 @@ public class LoginPage extends BasePage
 	@FindBy(id = "flash")
 	private WebElement confirmLogout;
 	
+	@FindBy(id = "VB")   // lazy mapping - until we don't interact with element, we don't search fo them
+	private WebElement vladimir;
+	
 // constructor
 	public LoginPage(WebDriver driver)
 	{
@@ -40,6 +43,25 @@ public class LoginPage extends BasePage
 		driver.get(URL);
 		return PageFactory.initElements(driver, LoginPage.class);
 	}
+	
+	private void submitLogin(String user, String pass)
+	{
+		username.sendKeys(user);
+		password.sendKeys(pass);
+		clickElement(buttonLogin);
+	}
+	
+	public HomePage validLogin(String user, String pass)
+	{
+		submitLogin(user, pass);
+		return PageFactory.initElements(driver, HomePage.class);
+	}
+	
+	public String getLogoutConfirmation()
+	{
+		return confirmLogout.getText();
+	}
+	
 }
 
 
