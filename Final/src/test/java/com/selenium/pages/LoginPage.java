@@ -27,7 +27,7 @@ public class LoginPage extends BasePage
 	@FindBy(id = "flash")
 	private WebElement confirmLogout;
 	
-	@FindBy(id = "VB")   // lazy mapping - until we don't interact with element, we don't search fo them
+	@FindBy(id = "VB")   // lazy binding - until we don't interact with element, we don't search fo them
 	private WebElement vladimir;
 	
 // constructor
@@ -62,6 +62,11 @@ public class LoginPage extends BasePage
 		return confirmLogout.getText();
 	}
 	
+	public LoginPage invalidLogin(String user, String pass)
+	{
+		submitLogin(user, pass);
+		return this;
+	}
 }
 
 
