@@ -2,9 +2,9 @@ package com.selenium.tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 
 import com.selenium.common.BaseTest;
 import com.selenium.pages.HomePage;
@@ -20,12 +20,15 @@ class LoginLogoutWithPO extends BaseTest
 		assertTrue(homePage.getLoginConfirmation().contains("You logged into"));
 		
 		LoginPage loginPage = homePage.logout();
-		assertTrue(loginPage.getLogoutConfirmation().contains("You logged out"));
+		assertTrue(loginPage.getConfirmation().contains("You logged out"));
 	}
 	
-//	@Test
-//	void invalidTest()
-//	{
-//		
-//	}
+	@ParameterizedTest
+	@CsvFileSource(resources = "ddt.csv", numLinesToSkip = 1)
+	void invalidLogin(String username, String password, String expected)
+	{
+		LoginPage loginPage = LoginPage.open(driver);
+		loginPage.submitLogin(username, password);
+		assertTrue(loginPage.getConfirmation().contains(expected));
+	}
 }

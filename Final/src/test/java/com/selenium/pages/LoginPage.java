@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -16,15 +17,19 @@ public class LoginPage extends BasePage
 	
 // elements
 	@FindBy(id = "username")
+	@CacheLookup
 	private WebElement username;
 	
 	@FindBy(id = "password")
+	@CacheLookup
 	private WebElement password;
 	
 	@FindBy(className = "radius")
+	@CacheLookup
 	private WebElement buttonLogin;
 	
 	@FindBy(id = "flash")
+	@CacheLookup
 	private WebElement confirmLogout;
 	
 	@FindBy(id = "VB")   // lazy binding - until we don't interact with element, we don't search fo them
@@ -44,7 +49,7 @@ public class LoginPage extends BasePage
 		return PageFactory.initElements(driver, LoginPage.class);
 	}
 	
-	private void submitLogin(String user, String pass)
+	public void submitLogin(String user, String pass)
 	{
 		username.sendKeys(user);
 		password.sendKeys(pass);
@@ -58,7 +63,7 @@ public class LoginPage extends BasePage
 //		return PageFactory.initElements(driver, HomePage.class);
 	}
 	
-	public String getLogoutConfirmation()
+	public String getConfirmation()
 	{
 		return confirmLogout.getText();
 	}
