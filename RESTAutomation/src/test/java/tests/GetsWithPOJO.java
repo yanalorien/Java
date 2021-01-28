@@ -29,10 +29,12 @@ class GetsWithPOJO
 					.exchange()
 					.expectStatus().isOk()
 					.expectHeader()
-					.contentType(MediaType.APPLICATION_JSON)
+					.contentType(MediaType.APPLICATION_JSON_UTF8_VALUE)
 					.expectBody(TimezonePage.class)
 					.returnResult();
 		
 		TimezonePage response = result.getResponseBody();
+		assertEquals(3, response.getDay_of_week());
+		assertEquals("PST", response.getAbbreviation());
 	}
 }
